@@ -1,0 +1,178 @@
+body{
+    display:flex;
+    gap:20px;
+
+}
+.pguser{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    height:750px;
+    background-color:#eadbcd;
+    gap: 10px;
+    margin-top:20px;
+    margin-right: 20px;
+    padding-right:10px;
+    padding-left:10px;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+   
+}
+.profil{
+   
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #f2eee3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:25px;
+    margin-bottom:20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); 
+    height:100px;
+    width: 270px;
+  
+}
+
+.profil_img{
+    width: 75px;
+    height : 75px;
+   border:1px solid black; 
+   border-radius:50%;
+   float:left;
+   margin-right:15px;
+}
+
+.admin1{
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    border: 1px solid black;
+    height:100px;
+    width: 270px;
+    background-color: #f2eee3;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); 
+       
+}
+
+.admin2{
+    border-radius: 20px;
+    border: 1px solid #f2eee3;
+    background-color: #f2eee3;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align:center;
+    letter-spacing: 1px;
+    transition: transform 80ms ease-in;
+    border-color: red;
+    margin-top:100px;
+    margin-left:50px;
+    padding-top:10px;
+   height:35px;
+  width:60%;
+  }
+    
+a{
+    margin-top:30px;
+    
+}
+
+.contain{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    background: #f6f5f7;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .title{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    width: 80%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom:20px;
+    margin-top:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .title_page{
+    text-align:center;
+  }
+  .card{
+    margin: auto;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 20px;
+    background: white;
+    margin-top: 50px;
+    transition: all 0.2s;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  .desc {
+    padding: 1.5em;
+    font-family: "Poppins", sans-serif;
+  }
+  .picture{
+    max-width : auto;
+    height : auto;
+  }
+  .img-cover{
+    position:relative;
+    
+  }
+  
+  .card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  .icon {
+    position: absolute;
+    top: 0;
+    padding: 25px;
+    right: 0;
+    border-bottom-left-radius: 20px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+  }
+  .caption {
+    margin-bottom: 40px;
+    width: 100%;
+    height: 50px;
+    overflow: auto;
+  }
+  
+  /* lien "take me there" */
+  .desc a {
+    text-decoration: none;
+    background: dodgerblue;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 15px;
+    display: block;
+    text-align: center;
+    transition: all 0.2s;
+  }
+  .desc a:hover {
+    background-color: SteelBlue;
+  }
+  /* ombrage qd on passe la souris sur take me there */
+  .desc a:hover svg {
+    animation: iconeAnim 1s;
+  }
+  

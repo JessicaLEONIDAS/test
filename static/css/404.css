@@ -1,0 +1,25 @@
+body{
+    background-size:cover ;
+    background-image: url(/static/images/404page.jpeg);
+    
+}
+.errorcode{
+    color:white;
+    font-size:5em;
+    font-family: 'Inconsolata', monospace;
+}
+img{
+    position: absolute;
+    bottom: 15px; right: 10px;
+}
+h2{
+    color:white;
+    -webkit-text-stroke: 1px #9BF3FD;
+    position: absolute;
+    bottom: 150px; left: 10px;
+}
+
+a{
+    color: white;
+    
+}

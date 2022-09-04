@@ -1,0 +1,116 @@
+.contain{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    background: #f6f5f7;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-right: 50px;
+    padding-left: 20px;
+
+}
+.images{
+    display:flex;
+    flex-direction:row;
+    margin-left:25px;
+    margin-top: 35px;
+    
+}
+
+.carrousel{
+    gap:10px;   
+
+}
+.img{
+height: 150px;
+border-radius: 10px;
+     
+}
+
+.img_cover{
+    border-radius: 10px;
+    width:70%;
+       
+}
+
+.others{
+    display:flex;
+    flex-direction:row;
+    margin-top:35px;
+    margin-left:25px;
+    gap:20px;
+    
+}
+h2{
+    text-align: left;
+    font-size:1.2em;
+    text-decoration: underline;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom:15px;
+}   
+h3{
+    padding-left:25px;
+
+} 
+form{
+    padding-left:25px;
+}
+p{
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top:10px;
+}
+.car_name{
+    border:1px solid black;
+    border-radius:10px;
+   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+   padding-bottom:20px;
+    padding-right:20px;
+    padding-left:20px;
+    margin-bottom:25px;
+}
+.textarea{
+    width: 350px;
+    height:20px;
+   
+}
+
+.caracteristic_contain {
+   border:1px solid black;
+   border-radius:10px;
+   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    padding-bottom:20px;
+    padding-right:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:25px;
+  
+}
+   
+.options_contain{
+    
+    border:1px solid black;
+    border-radius:10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    padding-left:25px;
+    padding-right:25px;
+    margin-bottom:25px;
+    
+}
+.text_options{
+    margin-top:25px;
+    margin-left:10px;
+    margin-bottom: 25px;
+    width:350px;
+    height:150px;
+    border-radius:10px;
+}
+.valid{
+    background: dodgerblue;
+    color: white;
+ 
+}

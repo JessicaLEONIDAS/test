@@ -1,0 +1,198 @@
+body{
+  /* background: #f6f5f7; */
+  background-image: url('/static/images/backgroundjante.jpeg');
+  background-position: center;
+  background-size: cover;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/* header */
+.header {
+  display:flex;
+  justify-content: flex-start;
+  width: 100%;
+  
+}
+.title_header {
+  font-size: 1em;
+  color: black;
+  padding: 10px;
+  margin-left: 350px;
+  
+}
+.logo{
+  width:100%;
+  height: 150px;
+}
+.right_side_header{
+display:flex;
+flex-direction:column;
+
+  
+}
+.btn{
+  
+  border-radius: 15px;
+  color: white;
+  padding:15px;
+  margin-top:20px;
+  margin-left:275px;
+  text-decoration : none;
+  background-color: #20214F;
+  font-weight: bold;
+  width:30%;
+  text-align:center;
+  box-shadow: 5px 5px 15px rgba(250, 249, 249, 0.3);
+  
+  
+}
+.btn:hover{
+  background-color: #2271B3;
+}
+
+.title_menu{
+  font-size: 2em;
+  display:flex;
+  justify-content: center ;
+  margin-top: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+h1{
+  font-size: 2.1em;
+}
+h2{
+  font-size: 1.3em;
+  margin-inline: 30px;
+}
+.navbar{
+  display:flex;
+  align-self: center;
+  justify-content: center;
+  list-style-type:none;
+  margin-top:20px;
+  margin-bottom:25px;
+  
+ 
+}
+.navbar_title{
+  font-size:1.3em;
+  padding-right:50px;
+  color: white;
+  text-decoration:none;
+  
+}
+form{
+  display:flex;
+  align-self: center;
+  justify-content: center;
+  list-style-type:none;
+    padding-right: 15px;
+    padding-left:15px;
+ 
+}
+
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left:250px;
+  margin-right:250px;
+}
+.card{
+  margin: auto;
+  width: 350px;
+  overflow: hidden;
+  border-radius: 20px;
+  background: white;
+  margin-top: 50px;
+  transition: all 0.2s;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.desc {
+  padding: 1.5em;
+  font-family: "Poppins", sans-serif;
+}
+.picture{
+  max-width : auto;
+  height : auto;
+}
+.img-cover{
+  position:relative;
+  
+}
+
+.card img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.search_box{
+  border : 1px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+ margin-left: 200px;
+ margin-right: 200px;
+ -webkit-backdrop-filter:blur(15px);/*assure la compatibilité avec safari*/
+ backdrop-filter:blur(15px);
+
+}
+
+.search_box_container{
+  display:flex;
+}
+
+.button{
+  margin-left: 750px;
+  background-color: #20214F;
+  color:white;
+  font-size:15px;
+  font-weight:bold;
+  border-radius:15px;
+  margin: 10px 150px 10px 250px;
+}
+
+.required{
+margin-right: 30px; 
+display:flex;
+justify-content: center;
+ 
+}
+
+/* flèche */
+.icon {
+  position: absolute;
+  top: 0;
+  padding: 25px;
+  right: 0;
+  border-bottom-left-radius: 20px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+.caption {
+  margin-bottom: 40px;
+  width: 100%;
+  height: 50px;
+  overflow: auto;
+}
+
+/* lien "take me there" */
+.desc a {
+  text-decoration: none;
+  background: dodgerblue;
+  padding: 15px 25px;
+  color: white;
+  border-radius: 15px;
+  display: block;
+  text-align: center;
+  transition: all 0.2s;
+}
+.desc a:hover {
+  background-color: SteelBlue;
+}
+/* ombrage qd on passe la souris sur take me there */
+.desc a:hover svg {
+  animation: iconeAnim 1s;
+}
+

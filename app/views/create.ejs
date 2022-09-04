@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Auto Yerres</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="/static/css/homeadmin.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/static/css/create.css">
+
+
+</head>
+<body>
+    <div class="sidebar"></div>
+    <div class="pguser">
+        <div class="admin">
+            <img class="profil_img" src="static/logo/logo1AutoY.png"/>
+            <a class="txt">MY ADMIN</a>
+        </div>
+
+        <div class="admin1">
+        <a href="#" class="txt">Annonces<br>
+            <i class="fa fa-folder"></i></a>
+            </div>
+
+            <div class="admin1">
+        <a href="#" class="txt">Messages<br>
+            <i class="fa fa-envelope"></i></a>
+        </div>
+
+        <div class="admin1">
+        <a href="#" class="txt" > Paramètres<br>
+            <i class="fa fa-gear"></i></a>
+        </div>
+        
+        <div class="admin2">
+            <a href="/" class="txt">Déconnexion</a>
+        </div>
+    </div>
+
+    <main class="main">
+        <div class="title">
+        <h1 class="title_page">Créer une annonce</h1>
+        </div>
+        <div class="contain">
+
+            <div class="images">
+                <div class="cover">
+            <img class="img_cover" src="/static/images/Chevrolet_captiva_2.4LS.jpg" alt="BMW_Z4">
+            </div>
+            <div class="carrousel">
+            <img class="img" src="/static/images/VWGolfV_GTI.jpg" alt="BMW_Z4">
+            <img class="img" src="/static/images/BMW_Z4.jpg" alt="BMW_Z4">
+            <img class="img" src="/static/images/BMW_Z4.jpg" alt="BMW_Z4">
+            <img class="img" src="/static/images/Mercedes ClassC Coupe.jpg" alt="BMW_Z4">
+           
+            </div>
+            <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+
+            <input type="file" />
+            </div>
+
+            <div class="others">
+
+                <div class="car_name">
+                    <h2>CREER UN NOUVEAU VEHICULE</h2>
+                    <p class="createCar">Marque du véhicule :</p>
+                    <input type="text" size="15" placeholder="BMW" />
+
+                    <p class="createCar"> Modèle du véhicule :</p>
+
+                    <input type="text" size="15" placeholder="Champ de texte HTML" />
+
+                    <p class="createCar">Série du véhicule :</p>
+                    
+                    <input type="text" size="25" placeholder="Tutoriels HTML" />
+
+                    <p class="createCar">Prix:</p>
+                    
+                    <input type="number" size="6" placeholder="123456" />
+
+                    <input class="valid" type="submit" value="Créer" />
+                </div>
+
+        <div class="caracteristic_contain">
+            <h2>CHOIX DES CARACTERISTIQUES</h2>
+            
+            <h3 class="required">Marque :</h3>
+    <form action="/search" method="get">
+       <select name="brand" id="brand">
+        <option value="BMW">BMW</option>
+        <option value="Volkswagen">Volkswagen</option>
+       </select>
+    </form>
+
+    <h3 class="required">Modèle :</h3>
+    <form action="/search" method="get">
+       <select name="model" id="model">
+        <option value="Z4">Z4</option>
+        <option value="GolfV">Golf V</option>
+       </select>
+    </form>
+
+    <h3 class="required">Série :</h3>
+    <form action="/search" method="get">
+       <select name="serie" id="serie">
+        <option value="name">E85</option>
+        <option value="name">2.4 LT 2WD</option>
+        <option value="name">1.4 16S XTR SENSODRIVE</option>
+        
+
+       </select>
+    </form>
+
+    <h3 class="required">Carburant :</h3>
+    <form action="/search" method="get">
+       <select name="engine" id="engine">
+        <option value="Gasoil">Gasoil</option>
+        <option value="Essence">Essence</option>
+       </select>
+    </form>
+
+    <h3 class="required">Prix :</h3>
+    <form action="/search" method="get">
+       <select name="price" id="price">
+        <input type="number" size="6" placeholder="12345" />
+       </select>
+       <input class="valid" type="submit" value="Valider" />
+    </form>
+
+        </div>
+        <div class="options_contain">
+            <h2>CHOIX DES OPTIONS</h2>
+            <p> Sécurité</p>
+            <input type="checkbox" name="colors" value="blue" />ABS<br/>
+            <input type="checkbox" name="colors" value="blue" />ESP<br/>
+            <input type="checkbox" name="colors" value="blue" />Système audio CD MP3<br/>
+            <input type="checkbox" name="colors" value="blue" />Volant sport<br/>
+
+            <p>Antivol</p>
+            <input type="checkbox" name="colors" value="blue" />Anti-démarrage<br/>
+            <p>Intérieur</p>
+            <input type="checkbox" name="colors" value="blue" />Boîte 6 vitesses<br/>
+            <input type="checkbox" name="colors" value="blue" />Accoudoir central arrière<br/>
+            <input type="checkbox" name="colors" value="blue" />Accoudoir central avant<br/>
+            <input type="checkbox" name="colors" value="blue" />Climatisation automatique<br/>
+            <input type="checkbox" name="colors" value="blue" />Direction assistée<br/>
+            <input type="checkbox" name="colors" value="blue" />Ordinateur de bord<br/>
+            <input type="checkbox" name="colors" value="blue" />Sièges chauffants<br/>
+
+            <p>Extérieur et chassis</p>
+            <input type="checkbox" name="colors" value="blue" />Radar de recul<br/>
+            <input type="checkbox" name="colors" value="blue" />Rétroviseurs électriques<br/>
+            <input type="checkbox" name="colors" value="blue" />Toit ouvrant<br/>
+
+            <p>Autres :</p>
+            <textarea class="text_options" cols="50" rows="20">Ecrivez vos options </textarea>
+            <input class="valid" type="submit" value="Valider" />
+            
+
+        </div>
+    </div>
+    </div>
+</main>
+</body>

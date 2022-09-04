@@ -1,0 +1,53 @@
+.app{
+    display:flex;
+    gap: 150px;
+
+}
+
+.title_menu{
+    margin-bottom: 90px;
+    color:white;
+    text-decoration: none;
+}
+
+.presentation{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:30px;
+    width: 100%;
+
+}
+.imgautoY{
+    
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.introduction {
+    width: 450px;
+    height: 150px;
+}
+
+iframe{
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.adress{ 
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:30px;
+    width: 100%;
+
+}
+
+.info_adress{
+    text-align:left;
+  
+}
+
